@@ -5,9 +5,8 @@ import secrets
 # numbers, upper case and lower case letters, and symbols.
 
 
-symbols = ['!','@','#','%','$','&','~']
-#other_symbols = ['`','^','*','(',')','{','}','<','>','|',':',';','/','-','[',']','+']
-
+symbols = ['!','@','#','%','$','&','~','+','-','/','*']
+#other_symbols = ['`','^','(',')','{','}','<','>','|',':',';','[',']']
 
 password = ""
 
