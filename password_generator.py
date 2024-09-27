@@ -1,12 +1,11 @@
 import string
 import secrets
 
-# 16 characters 
-# numbers, upper case and lower case letters, and symbols.
+# generate random 16 character password string
+# includes mix of numbers, upper and lower case letters, and symbols
 
-
+# some symbols can be removed if certain sites restricts it
 symbols = ['!','@','#','%','$','&','~','+','-','/','*']
-#other_symbols = ['`','^','(',')','{','}','<','>','|',':',';','[',']']
 
 password = ""
 
