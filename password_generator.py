@@ -2,7 +2,7 @@ import string
 import secrets
 
 # generate random character length password 
-# includes upper and lower case letters, numbers, and symbosl 
+# includes upper and lower case letters, numbers, and symbols
 
 # you can add or remove symbols in the list depending on the site account password creation requirements 
 symbols = ['!','@','#','%','$','&','~','+','-','/','*']
