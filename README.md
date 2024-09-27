@@ -5,6 +5,6 @@ Requirements:
 Python 
 
 How to run the script:
-- Clone repo to your local machine 
+- Clone repo to your local machine using git or download zip  
 - Run the password_generator.py either through your preferred IDE or
   Windows Terminal (Command Prompt or Powershell) with the following command: python3 password_generator.py 
