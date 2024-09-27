@@ -1,2 +1,2 @@
 # Password-Generator
-Generate secure password for personal, school, or work accounts 
+Generate secure password 
