@@ -1,18 +1,20 @@
 import string
 import secrets
 
-# generate random 16 character password string
-# includes mix of numbers, upper and lower case letters, and symbols
+# generate random character length password 
+# includes upper and lower case letters, numbers, and symbosl 
 
-# some symbols can be removed if certain sites restricts it
+# you can add or remove symbols in the list depending on the site account password creation requirements 
 symbols = ['!','@','#','%','$','&','~','+','-','/','*']
 
 password = ""
 
-for _ in range (4):
+for _ in range (4): # default loop 4 for 16 character length, but you can modify it to increase or decrease password length 
     password += secrets.choice(string.ascii_lowercase)
     password += secrets.choice(string.ascii_uppercase)
     password += secrets.choice(string.digits)
     password += secrets.choice(symbols)
     
-print(password)
+print("password:", password)
+
+print("length:", len(password))
