@@ -1,6 +1,6 @@
 Password-Generator
 
-This python code generates random 16 character length password for your personal, school, or work accounts
+This python code generates random password for your personal, school, or work accounts
 
 Requirements to run the code:
 
